@@ -31,7 +31,7 @@ void setup() {
     EEPROM.write(1,26);
     EEPROM.commit();
     Serial.print(F("Write defaults.."));
-    store_config();
+    reset_config();
     } else {
     EEPROM.get(2,configuration);
     Serial.println(F("Done."));
