@@ -13,26 +13,26 @@ Currently, there are 5 commands available.
 
 
 ```help```
-This just prints the command list and the current stored values for 3,4, & 5.
+ just prints the command list and the current stored values for 3,4, & 5.
 
 ```reset```
-This sets the values stored for 3, 4, & 5 to default values.
+ sets the values stored for 3, 4, & 5 to default values.
 
 ```float1=```
 Enter the command as;
 float1=1.23456
-This will store 1.23456 into the variable `configuration.float1`
+ will store 1.23456 into the variable `configuration.float1`
 
 ```integer1=```
 Enter the command as;
 integer1=998877
-This will store 998877 into the variable `configuration.integer1`
+ will store 998877 into the variable `configuration.integer1`
 
 ```char1=```
 Enter the command as;
 char1=MyCharArrayHere
 This will store MyCharArray into the variable `configuration.char1`
 
-Notes:
+### Notes:
 No spaces are to be used before or after the space
 The maximum length of the received char array, and the command and value are set in various locations in the file.
