@@ -11,23 +11,24 @@ Currently, there are 5 commands available.
 4. integer1=
 5. char1=
 
-1. help
+
+help
 This just prints the command list and the current stored values for 3,4, & 5.
 
-2. reset
+reset
 This sets the values stored for 3, 4, & 5 to default values.
 
-3. float1=
+float1=
 Enter the command as;
 float1=1.23456
 This will store 1.23456 into the variable `configuration.float1`
 
-4. integer1=
+integer1=
 Enter the command as;
 integer1=998877
 This will store 998877 into the variable `configuration.integer1`
 
-3. char1=
+char1=
 Enter the command as;
 char1=MyCharArrayHere
 This will store MyCharArray into the variable `configuration.char1`
