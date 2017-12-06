@@ -33,6 +33,11 @@ Enter the command as;
 char1=MyCharArrayHere
 This will store MyCharArray into the variable `configuration.char1`
 
+### EEPROM storage
+
+The settings are retained in EEPROM. The first two bytes of the eeprom are tested on power up to see if they match two specific values. If they don't match, the default values are written to the eeprom and the two bytes are set to match.
+This allows a freshly programmed device to automatically write default values for your configuration.
+
 ### Notes:
 No spaces are to be used before or after the space.
 The maximum length of the received char array, and the command and value are set in various locations in the file.
