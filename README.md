@@ -34,5 +34,5 @@ char1=MyCharArrayHere
 This will store MyCharArray into the variable `configuration.char1`
 
 ### Notes:
-No spaces are to be used before or after the space
+No spaces are to be used before or after the space.
 The maximum length of the received char array, and the command and value are set in various locations in the file.
