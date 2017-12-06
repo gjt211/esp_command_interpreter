@@ -2,7 +2,7 @@
 
 Simple command interpreter that was developed for an ESP8266 using the Arduino/ESP8266 core.
 
-Allows simple commands to be received over the UART to perform actions.
+Allows simple commands to be received over the UART to perform actions, and allows various configuration settings to be stored permanantly in eeprom.
 
 Currently, there are 5 commands available.
 1. help
